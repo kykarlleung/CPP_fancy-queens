@@ -3,6 +3,8 @@
 #include "windows.h"
 using namespace std;
 
+int numberOfSolution = 5; 
+ 
 bool ok(int q[], int c)
 {
 	for (int i = 0; i < c; ++i)
@@ -13,7 +15,6 @@ bool ok(int q[], int c)
 
 void print(int q[])
 {
-	int numberOfSolution = 5; /*******change *******/
    	static int solution = 0;
    	int i, j, k, l;
    	int column = 10;
@@ -109,6 +110,8 @@ void next(int q[], int c)
 int main() 
 {
 	SetConsoleOutputCP(437);
+	cout << "Please enter the number of solutions you want: ";
+	cin >> numberOfSolution;
 	int q[8]={0};
 	int c=0;
 	bool setRowToNegativeOne = true;
