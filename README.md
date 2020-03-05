@@ -5,7 +5,7 @@ skills: C++ | Algorithms
 Printing Eight Queens Puzzle in a FANCY way!
 
 
-
+![](cpp_fancy-queens-img.png)
 
 What is Eight Queens Puzzle?
 
